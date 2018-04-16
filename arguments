@@ -1,0 +1,20 @@
+# how to use *args and **kwargs
+
+def func(*args,**kwargs):
+	print(args)
+	print(kwargs)
+
+def add(x,y): #here atributes are normal
+    return x+y
+
+def add_wrapper(*args,**kwargs): #here atributes are tuples and dictionaries.
+    print("Wrapping")
+    return add(*args,**kwargs)
+
+#func()
+#func(1,2,3,x="one",y="two")
+#add(5+10)
+#add_wrapper(10,5)
+#add_wrapper(10,x=5,y=2)
+#add_wrapper(x=10,y=5)
+#add_wrapper(1,2,3,4,5,a=10,b=15,c=20)
