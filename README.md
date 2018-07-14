@@ -1,2 +1,2 @@
-# ismek-course
-ismek course files and contents
+# Python-course-recipes
+Python course_recipes and contents
